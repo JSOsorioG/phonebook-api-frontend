@@ -1,7 +1,6 @@
+export const Contacts = (props) => {
 
-export const Contacts = (porps) => {
-
-    const {search, persons, deletePerson} = porps
+    const {search, persons, deletePerson} = props
 
     return (
         <div>
@@ -24,7 +23,7 @@ export const Contacts = (porps) => {
                             : console.log('No')
                     )})}</>
 
-                    //onClick={deletePerson(person.name)
+
                 } 
             </ul>
              
